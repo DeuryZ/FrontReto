@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <title>Platos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Platillos</h1>
+        <input type="text" id="search" placeholder="Buscar plato">
+    </header>
+    <main>
+        <form id="crearPlatoForm">
+            
+            <input type="text" name="nombre" placeholder="Nombre del plato" required>
+            <input type="text" name="descripcion" placeholder="Descripción del plato" required>
+            <input type="number" name="precio" placeholder="Precio del plato" required>
+            <input type="number" name="minDeEspera" placeholder="Minimo de espera" required>
+            <input type="text" name="link" placeholder="Imagen" required>
+            <button type="submit">Crear Plato</button>
+        </form>
+
+        <form id="actualizarPlatoForm" style="display: none;">
+            <input type="number" name="id" placeholder="id del plato" required>
+            <input type="text" name="nombre" placeholder="Nombre del plato" required>
+            <input type="text" name="descripcion" placeholder="Descripción del plato" required>
+            <input type="number" name="precio" placeholder="Precio del plato" required>
+            <input type="number" name="minDeEspera" placeholder="Minimo de espera" required>
+            <input type="text" name="link" placeholder="Imagen" required>
+            <button type="submit">Actualizar Plato</button>
+        </form>
+
+        <section id="platosList">
+
+        </section>
+    </main>
+    <footer>
+        Diseñado por DeuryZ
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+h1{
+    padding: 30px;
+    margin: 0;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+#crearPlatoForm input[type="text"],
+#crearPlatoForm input[type="number"],
+#crearPlatoForm button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#crearPlatoForm button {
+    background-color: #21773d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#crearPlatoForm button:hover {
+    background-color: #555;
+}
+
+#actualizarPlatoForm {
+    margin-bottom: 20px;
+}
+
+.botones
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.botonEditar{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: #3529db;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.botonEliminar{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: #eb1010;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#actualizarPlatoForm input[type="text"],
+#actualizarPlatoForm input[type="number"],
+#actualizarPlatoForm button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#actualizarPlatoForm button {
+    background-color: #3529db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#actualizarPlatoForm button:hover {
+    background-color: #555;
+}
+#platosList {
+    background-image: url('fondoMenu.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+.contenedor {
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffd9008f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    text-shadow: 1px 1px 0 #000;
+}
+.plato {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.plato p {
+    margin: 10px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+img {
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 20px;
+
+}
+
+#search {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 100%;
+    font-size: 16px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    color: #fff;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
